@@ -143,7 +143,6 @@ ul {
     row-gap: 5%;
     margin-top: 5%;
     height: 5%;
-    font-size: 16px;
 }
 
 .side-block {
@@ -188,7 +187,6 @@ ul {
     background-color: #20b2aa;
     padding: 2%;
     border-radius: 10px;
-    font-size: 16px;
 }
 
 .skill-container {
@@ -405,24 +403,24 @@ ul {
 }
 
 @media screen and (min-width:700px) and (max-width: 930px) {
-    .navbar {
-        font-size: 14px;
+    body {
+        font-size: 20px;
     }
     
     .side-photo-container {
         width: 70%;
     }
-    
-    .side-grid, .skill-bar {
-        font-size: 16px;
-    }
 }
 
 @media screen and (max-width: 700px) {
     body {
-        font-size: 16px;
+        font-size: 22px;
     }
 
+    .header-text {
+        font-size: 1.75em;
+    }
+    
     .side-section {
         width: 100%;
     }
@@ -435,14 +433,6 @@ ul {
         flex-direction: column;
     }
 
-    .side-grid, .skill-bar {
-        font-size: 14px;
-    }
-
-    .navbar {
-        font-size: 12px;
-    }
-
     .footer-link, .copyright {
         font-size: 12px;
     }
@@ -450,33 +440,25 @@ ul {
 
 @media screen and (max-width: 400px) {
     body {
-        font-size: 14px;
-    }
-    
-    .side-grid, .skill-bar {
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .header-text {
-        font-size: 1.75em;
+        font-size: 1.3em;
     }
 
     .navbar {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 
 @media screen and (min-width: 1600px) {
     body {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .navbar {
-        font-size: 18px;
-    }
-
-    .side-grid, .skill-bar {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .right::before {
