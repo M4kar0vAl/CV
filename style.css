@@ -405,10 +405,6 @@ ul {
 }
 
 @media screen and (min-width:700px) and (max-width: 930px) {
-    body {
-        font-size: 16px;
-    }
-
     .navbar {
         font-size: 14px;
     }
@@ -418,13 +414,13 @@ ul {
     }
     
     .side-grid, .skill-bar {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 700px) {
     body {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .side-section {
@@ -440,7 +436,7 @@ ul {
     }
 
     .side-grid, .skill-bar {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .navbar {
@@ -453,6 +449,14 @@ ul {
 }
 
 @media screen and (max-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .side-grid, .skill-bar {
+        font-size: 12px;
+    }
+
     .header-text {
         font-size: 1.75em;
     }
